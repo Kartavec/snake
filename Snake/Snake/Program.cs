@@ -36,6 +36,7 @@ namespace Snake
 			Update( p1 );
 			Console.WriteLine( "Call Move. p1.x = " + p1.x + ", p1.y = " + p1.y );
 
+			Console.ReadLine();
 		}
 
 		public static void Func1( int value )
