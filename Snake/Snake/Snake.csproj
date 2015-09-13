@@ -41,10 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Emploee.cs" />
     <Compile Include="Figure.cs" />
     <Compile Include="HorizontalLine.cs" />
-    <Compile Include="Human.cs" />
     <Compile Include="Point.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
