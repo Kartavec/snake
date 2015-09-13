@@ -41,10 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Figure.cs" />
     <Compile Include="HorizontalLine.cs" />
     <Compile Include="Point.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VerticalLine.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
