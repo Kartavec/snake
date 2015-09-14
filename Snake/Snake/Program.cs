@@ -37,7 +37,7 @@ namespace Snake
 				{
 					food = foodCreator.CreateFood();
 					food.Draw();
-            }
+				}
 				else
 				{
 					snake.Move();
