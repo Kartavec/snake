@@ -50,6 +50,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Snake.cs" />
     <Compile Include="VerticalLine.cs" />
+    <Compile Include="Walls.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
