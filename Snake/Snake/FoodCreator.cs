@@ -19,7 +19,7 @@ namespace Snake
 			this.mapWidht = mapWidth;
 			this.mapHeight = mapHeight;
 			this.sym = sym;
-      }
+		}
 
 		public Point CreateFood()
 		{
