@@ -26,6 +26,18 @@ namespace Snake
 			wallList.Add( rightLine );
 		}
 
+		internal bool IsHit( Figure figure )
+		{
+			foreach(var wall in wallList)
+			{
+				if(wall.IsHit(figure))
+				{
+					return true;
+				}
+			}
+			return false;
+		}
+
 		public void Draw()
 		{
 			foreach ( var wall in wallList )
