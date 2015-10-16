@@ -43,12 +43,14 @@
   <ItemGroup>
     <Compile Include="Direction.cs" />
     <Compile Include="Figure.cs" />
+    <Compile Include="FoodCreator.cs" />
     <Compile Include="HorizontalLine.cs" />
     <Compile Include="Point.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Snake.cs" />
     <Compile Include="VerticalLine.cs" />
+    <Compile Include="Walls.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
